@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llamaindex-demo"
+version = "0.1.0"
+description = ""
+authors = ["Hendrik Scherner"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+llama-index = "^0.9.28.post2"
+jupytext = "^1.16.0"
+ipykernel = "^6.28.0"
+transformers = "^4.36.2"
+torch = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
